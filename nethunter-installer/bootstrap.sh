@@ -61,7 +61,7 @@ case $choice in
 	y*|Y*)
 		cloneurl="git@github.com:${GIT_ACCOUNT}/${GIT_REPOSITORY}" ;;
 	*)
-		cloneurl="https://github.com/${GIT_ACCOUNT}/${GIT_REPOSITORY}.git" ;;
+		cloneurl="https://github.com/DuiWeL-CpT/Kalinethunter-Master-Note-8" ;;
 esac
 
 clonecmd="$clonecmd --branch $clonebranch $cloneurl devices"
